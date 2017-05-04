@@ -163,7 +163,26 @@
 	height: 95px;
 }
 .pic-free{
+	width: 80px;
+	height: 80px;
+	background-color: rgb(102,102,102);
+	margin-right: 12px;
 	float: left;
+	overflow: hidden;
+}
+.pic-free-dec
+{
+	margin-left: -55%;
+	position: relative;
+	top: 8%;
+    transform: rotate(-45deg);
+    width: 120px;
+    height: 20px;
+    text-align: center;
+    color: #F0F9FD;
+    font-size: 11px;
+    line-height: 25px;
+    background: rgb(0,194,175);
 }
 .row-item .col-xs-12 span{
 	float: left;
@@ -326,7 +345,7 @@ h4{
 {
 	border: 1px solid #D8D8EB;
 	/*border-right: 0;*/
-	height: 128px;
+	height: 130px;
 	border-top: 0;
 }
 #part2-view1-3
@@ -336,9 +355,10 @@ h4{
 .part2 .ppt
 {
 	background-color: #FF5809;
-	width: 20px;
+	width: 22px;
 	font-size: xx-small;
 	color: white;
+	text-align: center;
 	margin-top: 3px;
 	border-radius: 3px;
 }
@@ -347,7 +367,7 @@ h4{
 {
 	border: 1px solid #D8D8EB;
 	border-right: 0;
-	height: 153px;
+	height: 155px;
 	border-top: 0;
 }
 
@@ -366,7 +386,7 @@ h4{
 {
 	border-left: 1px solid #D8D8EB;
 	border-bottom: 1px solid #D8D8EB;
-	height: 128px;
+	height: 130px;
 }
 .part4 .pic .play
 {
@@ -487,6 +507,7 @@ h4{
 	border:1px solid #D8D8EB;
 	height: 120px;
 	padding: 2%;
+	margin-top: 8px;
 }
 .part8 #part8-p2
 {
