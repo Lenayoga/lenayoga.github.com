@@ -255,7 +255,6 @@ h4{
 .pc-head .sec-line-l
 {
 	color: white;
-	/*float: left;*/
 	font-size: 13px;
 	margin-left: 25px;
 }
@@ -274,10 +273,6 @@ h4{
 	background-color: #F0F0F0;
 	cursor: pointer;
 }
-/*.sec-line-r span
-{
-	background-color: #D8D8EB;
-}*/
 .sec-line-r .fa-search
 {
 	height: 18px;
@@ -344,7 +339,6 @@ h4{
 .part2
 {
 	border: 1px solid #D8D8EB;
-	/*border-right: 0;*/
 	height: 130px;
 	border-top: 0;
 }

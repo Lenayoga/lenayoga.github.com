@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>BaiduMap</title>
+    <script src="https://api.map.baidu.com/api?v=2.0&ak=8cMfMbENThMZ37qWFgNiv9o5D2pL9D0Y"></script>
+    <link rel="stylesheet"  href="css/Ex09.css">
+  </head>
+  <body>
+    <div id="myMap"></div>
+    <div id="Map"></div>
+    <div id="container"></div>
+    <div id="schoolMap"></div>
+    	<div id="shuyuan1">
+		    <img src="img/Ex09-shuyuan.jpg" class="sy-pic">
+		    <div class="sy-number">恕园1号楼</div>
+     	    <div class="sy-information">阿里巴巴商学院</div>
+     	</div>
+     	<div id="shuyuan2">
+     	    <img src="img/Ex09-shuyuan.jpg" class="sy-pic">
+     	    <div class="sy-number">恕园2号楼</div>
+     	    <div class="sy-information">实验室</div>
+        </div>
+        <div id="shuyuan3">
+     	    <img src="img/Ex09-shuyuan.jpg" class="sy-pic">
+     	    <div class="sy-number">恕园3号楼</div>
+     	    <div class="sy-information">没去过</div>
+        </div>
+        <div id="shuyuan5">
+     	    <img src="img/Ex09-shuyuan.jpg" class="sy-pic">
+     	    <div class="sy-number">恕园5号楼</div>
+     	    <div class="sy-information">校内旅馆以及校园2号餐厅</div>
+        </div>
+        <div id="shuyuan6">
+     	    <img src="img/Ex09-shuyuan.jpg" class="sy-pic">
+     	    <div class="sy-number">恕园6号楼</div>
+     	    <div class="sy-information">成人、国际教育学院、海外学院以及校园1号餐厅</div>
+        </div>
+        <div id="shuyuan7">
+            <img src="img/Ex09-shuyuan7.jpg" class="sy-pic">
+            <div class="sy-number">恕园7号楼</div>
+            <div class="sy-information">200座、500座展厅</div>
+        </div>
+        <div id="shuyuan8">
+            <img src="img/Ex09-shuyuan8.jpg" class="sy-pic">
+            <div class="sy-number">恕园8号楼</div>
+            <div class="sy-information">校园3/4/5号餐厅</div>
+        </div>
+        <div id="shuyuan13">
+            <img src="img/Ex09-shuyuan13.jpg" class="sy-pic">
+            <div class="sy-number">恕园13号楼</div>
+            <div class="sy-information">一鸣真鲜奶吧</div>
+        </div>
+        <div id="shuyuan19">
+            <img src="img/Ex09-shuyuan.jpg" class="sy-pic">
+            <div class="sy-number">恕园19号楼</div>
+            <div class="sy-information">外国语学院</div>
+        </div>
+        <div id="shuyuan12">
+            <img src="img/Ex09-shuyuan.jpg" class="sy-pic">
+            <div class="sy-number">恕园12号楼</div>
+            <div class="sy-information">教室</div>
+        </div>
+        <div id="shuyuan16">
+            <img src="img/Ex09-shuyuan.jpg" class="sy-pic">
+            <div class="sy-number">恕园16号楼</div>
+            <div class="sy-information">机房，实验室</div>
+        </div>
+        <div id="shuyuan27">
+            <img src="img/Ex09-shuyuan.jpg" class="sy-pic">
+            <div class="sy-number">恕园27号楼</div>
+            <div class="sy-information">机房，通常上大英课</div>
+        </div>
+        <div id="shuyuan30">
+            <img src="img/Ex09-shuyuan.jpg" class="sy-pic">
+            <div class="sy-number">恕园30号楼</div>
+            <div class="sy-information">没去过</div>
+        </div>
+        <div id="shuyuan23">
+            <img src="img/Ex09-shuyuan.jpg" class="sy-pic">
+            <div class="sy-number"></div>
+            <div class="sy-information">杭州师范大学公共艺术教育部</div>
+        </div>
+        <div id="shuyuan">
+            <img src="img/Ex09-lib.jpg" class="sy-pic">
+            <div class="sy-number"></div>
+            <div class="sy-information">杭州师范大学图书馆</div>
+        </div>
+        <div id="bowenyuan3">
+            <img src="img/Ex09-bowen.jpg" class="sy-pic">
+            <div class="sy-number">博文苑3号楼</div>
+            <div class="sy-information"></div>
+        </div>
+        <div id="bowenyuan4">
+            <img src="img/Ex09-bowen4.jpg" class="sy-pic">
+            <div class="sy-number">博文苑4号楼</div>
+            <div class="sy-information">眼镜店、速食品店、照相馆、萌站快递点</div>
+        </div>
+        <div id="bowenyuan2">
+            <img src="img/bowenyuan2.jpg" class="sy-pic">
+            <div class="sy-number">博文苑2号楼</div>
+            <div class="sy-information">校园1号超市</div>
+        </div>
+        <div id="bowenyuan5">
+            <img src="img/Ex09-bowen5.jpg" class="sy-pic">
+            <div class="sy-number">博文苑5号楼</div>
+            <div class="sy-information">水果店、文具店、理发店、just帮帮、8090饰品店</div>
+        </div>
+        <div id="bowenyuan6">
+            <img src="img/Ex09-bowen6.jpg" class="sy-pic">
+            <div class="sy-number">博文苑6号楼</div>
+            <div class="sy-information">菜鸟驿站快递点、打印店</div>
+        </div>
+        <div id="bowenyuan7">
+            <img src="img/Ex09-bowenyuan7.jpg" class="sy-pic">
+            <div class="sy-number">博文苑7号楼</div>
+            <div class="sy-information">校园2号超市、医务室</div>
+        </div>
+        <div id="bowenyuan9">
+            <img src="img/Ex09-bowen.jpg" class="sy-pic">
+            <div class="sy-number">博文苑9号楼</div>
+            <div class="sy-information">杭州师范大学学生事务服务中心</div>
+        </div>
+        <div id="soccercort">
+            <img src="img/Ex09-soccer.jpg" class="sy-pic">
+            <div class="sy-number">足球场</div>
+            <div class="sy-information">踢足球</div>
+        </div>
+        <div id="playground">
+            <img src="img/Ex09-playground.jpg" class="sy-pic">
+            <div class="sy-number">体育场</div>
+            <div class="sy-information">操场</div>
+        </div>
+        <div id="basketball">
+            <img src="img/Ex09-baskertball.jpg" class="sy-pic">
+            <div class="sy-number">杭州师范大学篮球场</div>
+            <div class="sy-information">打篮球、打羽毛球、打网球</div>
+        </div>
+        <div id="door">
+            <img src="img/Ex09-nanmen.jpg" class="sy-pic">
+            <div class="sy-number">杭州师范大学东南门</div>
+            <div class="sy-information"></div>
+        </div>
+        <div id="door1">
+            <img src="img/Ex09-door1.jpg" class="sy-pic">
+            <div class="sy-number">杭州师范大学西门</div>
+            <div class="sy-information"></div>
+        </div>
+        <div id="bowen">
+            <img src="img/Ex09-shuyuan.jpg" class="sy-pic">
+            <div class="sy-number">博文印象</div>
+            <div class="sy-information">打印店、udo</div>
+    </div>
+  </body>
+  <script type="text/javascript" src="lib/jquery-3.2.1.js"></script>
+  <script type="text/javascript" src="js/Ex09.js"></script>
+</html>
