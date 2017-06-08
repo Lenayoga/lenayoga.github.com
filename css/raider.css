@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-05-23 12:17:32
+ * @version $Id$
+ */
+.title{
+	height:40px;
+	float:left;
+	margin-left:100px;
+	width:90%;
+}
+.title-position{
+	/*width:10%;*/
+	margin-top:10px;
+	margin-right:5px;
+	float:left;
+	font-size:120%;
+	font-family:Microsoft YaHei;
+	color:lightblue;
+}
+.title-road{
+	margin-top:10px;
+	float:left;
+	font-size:120%;
+	font-family:Microsoft YaHei;
+	color:black;
+}
+.return{
+	height:40px;
+	width:20%;
+	margin-left:80%;
+	float:right;
+	font-size:150%;
+	font-family:Microsoft YaHei;
+	color:#3864e6;
+}
+.content{
+	margin-left: 10%;
+	width:80%;
+	float:left;
+	height:760px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.content-intro{
+	width:30%;
+	height:350px;
+	margin-right:3%;
+	margin-bottom: 5px;
+	background-color: #eeefea;
+}
+.content-pic{
+	width:100%;
+	height:250px;
+	margin:2%;
+}
+.content-link{
+	height:40px;
+	width:100%;
+	margin-bottom: 10px;
+	/*background-color: */
+}
+.content-info{
+	height:30px;
+	width:100%;
+	display: flex;
+	flex-direction: row;
+}
+.content-picture{
+	width:20%;	
+}
+.content-text{
+	width: 50%;
+	font-size: 85%;
+	margin-top:8px;
+	color:gray;
+}
